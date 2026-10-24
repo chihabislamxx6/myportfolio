@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chihab Islam | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Chihab<span>Islam</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger" id="hamburger">
+            <span></span><span></span><span></span>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="container hero-content">
+            <span class="badge">Automatique &mdash; University of Bejaia</span>
+            <h1 class="hero-title">
+                Hi, I'm <span class="accent">Chihab Islam</span>
+            </h1>
+            <p class="hero-subtitle">20 years old &bull; 3rd year Automatique student &bull; Bejaia, Algeria</p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn primary">View Projects</a>
+                <a href="#contact" class="btn outline">Get in Touch</a>
+            </div>
+            <div class="socials">
+                <a href="#" class="social" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#" class="social" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="social" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#" class="social" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" class="social" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span><span></span><span></span>
+        </div>
+    </section>
+
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-img">
+                    <div class="img-placeholder"></div>
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title">About <span class="accent">Me</span></h2>
+                    <p>I'm <strong>Chihab Islam</strong>, a 20-year-old student in my 3rd year of Automatique at the University of Bejaia. I'm passionate about building modern, functional interfaces and exploring the intersection of design and automation.</p>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="number">20</span>
+                            <span class="label">Years old</span>
+                        </div>
+                        <div class="stat">
+                            <span class="number">3rd</span>
+                            <span class="label">Year Automatique</span>
+                        </div>
+                        <div class="stat">
+                            <span class="number">Bejaia</span>
+                            <span class="label">Algeria</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title">My <span class="accent">Projects</span></h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-img"></div>
+                    <div class="project-info">
+                        <h3>Smart Home Dashboard</h3>
+                        <p>Automation interface for controlling home devices with real-time monitoring.</p>
+                        <div class="project-tags">
+                            <span>React</span><span>Node</span><span>Automation</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-img"></div>
+                    <div class="project-info">
+                        <h3>Industrial Control UI</h3>
+                        <p>Modern dashboard for industrial automation systems built with clean UX.</p>
+                        <div class="project-tags">
+                            <span>Vue</span><span>Python</span><span>UI/UX</span>
+                        </div>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-img"></div>
+                    <div class="project-info">
+                        <h3>Portfolio Site</h3>
+                        <p>This portfolio — a dark red modern design with blur effects and animations.</p>
+                        <div class="project-tags">
+                            <span>HTML</span><span>CSS</span><span>JS</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">Get <span class="accent">In Touch</span></h2>
+            <div class="contact-wrapper">
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input type="text" placeholder="Your name" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Email</label>
+                            <input type="email" placeholder="you@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Message</label>
+                            <textarea placeholder="How can I help?" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary btn-full">Send Message</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fa-solid fa-envelope icon"></i>
+                        <div>
+                            <strong>Email</strong>
+                            <span>chihab.islam@univ-bejaia.dz</span>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-location-dot icon"></i>
+                        <div>
+                            <strong>Location</strong>
+                            <span>Bejaia, Algeria</span>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-phone icon"></i>
+                        <div>
+                            <strong>Phone</strong>
+                            <span>+213 775092726</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year">2026</span> Chihab Islam. Automatique student, University of Bejaia.</p>
+        </div>
+    </footer>
+
+    <script>
+        const hamburger = document.getElementById('hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        hamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                hamburger.classList.remove('active');
+            });
+        });
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('reveal');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.project-card, .about-img, .about-text, .contact-form, .contact-info').forEach(el => {
+            observer.observe(el);
+        });
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
